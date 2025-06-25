@@ -1,0 +1,17 @@
+{
+  "name": "botku",
+  "version": "1.0.0",
+  "description": "WhatsApp bot with full fitur",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "api": "node api/server.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.18",
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "pino": "^8.19.0"
+  }
+}
